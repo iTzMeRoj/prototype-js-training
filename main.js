@@ -61,7 +61,7 @@ function randomizeDice(diceContainer, numberOfDice) {
 }
 
 const NUMBER_OF_DICE = 3;
-const diceContainer = document.querySelector(".dice-container");
+const diceContainer = document.querySelector("dice-container");
 const btnRollDice = document.querySelector("btn-roll-dice");
 
 randomizeDice(diceContainer, NUMBER_OF_DICE);
